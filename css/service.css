@@ -70,7 +70,7 @@ text-transform: uppercase;
 }
 
 .about{
-    background-image: url(/photo/back.jpg)  ;
+    background-image: url(../photo/back.jpg)  ;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
