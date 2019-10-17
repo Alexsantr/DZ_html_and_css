@@ -1,7 +1,7 @@
 .content {
     min-height: 60vh;
     min-width: 100%;
-    background: url(/photo/content.png);
+    background: url(../photo/content.png);
     background-size: cover;
     align-items: center;
     display: flex;
