@@ -1,4 +1,4 @@
-.footer{
+.footer {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -8,36 +8,37 @@
     width: 100%;
     background: #C8A35F;
     font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
 }
-.footer li{
+
+.footer li {
     display: flex;
-    flex-direction:column;
-    margin: 0%;
-    padding: 0%;
-}.footer h1{
+    flex-direction: column;
     margin: 0%;
     padding: 0%;
 }
 
-.footer_log{
-    
-    flex-direction:row;
-    flex-wrap:wrap;
-}
-.logo_adress li {
-   
+.footer h1 {
+    margin: 0%;
+    padding: 0%;
 }
 
-@media screen and (max-width:800px){
+.footer_logo {
+
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width:800px) {
     .footer {
         align-items: center;
         display: flex;
         flex-direction: column;
-        
+
     }
-    
-    }
+
+}

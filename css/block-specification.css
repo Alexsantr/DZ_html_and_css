@@ -1,0 +1,43 @@
+.block-specification {
+    min-height: 60vh;
+    min-width: 100%;
+    background: url(../photo/content.png);
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.block-specification_information {
+    display: flex;
+    max-width: 50%;
+    border: 1px solid #C8A35F;
+    text-align: center;
+    flex-direction: column;
+
+
+}
+
+@media screen and (max-width :648px) {
+    .block-specification_information {
+        max-width: 100%;
+        margin: 2%;
+    }
+
+
+}
+
+.block-specification_information__title {
+
+    font-size: 150%;
+    flex-grow: 1;
+}
+
+.block-specification_information__text {
+    white-space: normal;
+    flex-grow: 1;
+    word-spacing: 2px;
+    font-size: 18px;
+}
