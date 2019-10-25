@@ -1,7 +1,7 @@
 .block-directions {
     display: flex;
     justify-content: center;
-    background-image: url("/DZ_html_and_css/photo/bg.svg");
+    background-image: url("../photo/bg.svg");
     background-repeat: no-repeat;
     /* background-size: 100%; */
     background-position: center;
