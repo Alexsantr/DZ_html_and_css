@@ -1,5 +1,5 @@
-.container {
-    display: flex;  
+.header_info {
+    display: flex;
     flex-flow: wrap;
     font-weight: bold;
     flex-basis: 100%;
@@ -7,8 +7,9 @@
     background: #C8A35F;
     font-size: 12px;
     align-items: center;
-    
+
 }
+
 /* @media screen and (min-width:500){
     .container{
        
@@ -18,7 +19,7 @@
     }
 } */
 
-.container li{
+.header_info li {
     justify-content: space-between;
     text-align: center;
 }
@@ -28,24 +29,21 @@
 
 
 
-.cont-lang {
+.header_info__lang {
     flex-flow: wrap;
     flex: 1;
-   
+
 
 }
 
-/* .cont-lang a{
-    display: inline-block;
-} */
 
-.cont-phone {
+.cheader_info__phone {
     flex-flow: wrap;
     flex: 1;
 
 }
 
-.cont-mail {
+.header_info__mail {
 
     flex-flow: wrap;
     flex: 1;

@@ -1,4 +1,4 @@
-.content {
+.block-specification {
     min-height: 60vh;
     min-width: 100%;
     background: url(../photo/content.png);
@@ -10,7 +10,7 @@
 
 }
 
-.ram {
+.block-specification_information {
     display: flex;
     max-width: 50%;
     border: 1px solid #C8A35F;
@@ -21,23 +21,21 @@
 }
 
 @media screen and (max-width :648px) {
-    .ram {
+    .block-specification_information {
         max-width: 100%;
+        margin: 2%;
     }
 
-    .content {
-        height: 100vh;
-
-    }
+    
 }
 
-.ram h2 {
+.block-specification_information__title {
 
-    font-size: 64px;
-    flex-grow: 1;
+     font-size: 150%;
+     flex-grow: 1;
 }
 
-.ram p {
+.block-specification_information__text {
     white-space: normal;
     flex-grow: 1;
     word-spacing: 2px;
