@@ -18,3 +18,14 @@ body a {
 body li {
     list-style-type: none;
 }
+hr {
+width: 85px;
+height: 5px;
+background: #C8A35F;
+position: absolute;
+}
+
+.block-block-directions_info__line{
+    margin-top: 5%;
+
+}
